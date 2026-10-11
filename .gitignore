@@ -1,0 +1,57 @@
+# ===== OS Files =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trash-*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Editor / IDE Files =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Environment / Secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ===== Dependencies =====
+node_modules/
+vendor/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# ===== Build Artifacts =====
+dist/
+build/
+out/
+target/
+*.class
+*.jar
+*.war
+
+# ===== Compiled / Cache Files =====
+*.pyc
+*.so
+*.o
+.cache/
+
+# ===== Ignore sws.toml =====
+sws.toml

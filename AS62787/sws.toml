@@ -1,0 +1,10 @@
+[general]
+index-files = "geofeed.csv"
+
+[[advanced.headers]]
+source = "**/*.csv"
+headers = { Content-Type = "text/plain; charset=utf-8" }
+
+[[advanced.headers]]
+source = "/"
+headers = { Content-Type = "text/plain; charset=utf-8" }

@@ -3,8 +3,8 @@ index-files = "geofeed.csv"
 
 [[advanced.headers]]
 source = "**/*.csv"
-headers = { Content-Type = "text/plain; charset=utf-8" }
+headers = { Content-Type = "text/plain; charset=utf-8", Cache-Control = "public, max-age=3600, must-revalidate" }
 
 [[advanced.headers]]
 source = "/"
-headers = { Content-Type = "text/plain; charset=utf-8" }
+headers = { Content-Type = "text/plain; charset=utf-8", Cache-Control = "public, max-age=3600, must-revalidate" }
